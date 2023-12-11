@@ -6,9 +6,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter your message: ");
+        System.out.println("Enter your message:");
         String yourMessage = input.nextLine();
-        System.out.println("Enter your key: ");
+        System.out.println("Enter your key:");
         int yourKey = input.nextInt();
 
         System.out.println("(E)ncode or (D)ecode?");
